@@ -3,7 +3,7 @@ import { MdEvent, MdDeliveryDining, MdTableBar } from "react-icons/md";
 
 const Services = () => {
   return (
-    <div className="py-16 w-full px-8 bg-red-50">
+    <div className="py-16 w-full px-8 bg-red-50" id="services">
       <div className="max-w-xl mb-10 mx-auto text-center lg:max-w-2xl md:mb-12">
         <h1
           data-aos="fade-up"

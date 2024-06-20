@@ -6,21 +6,21 @@ const Navbar = ({ sidebar, setSidebar }) => {
     <div className="absolute top-0 left-0 w-full py-[1rem] text-white z-20">
       <div data-aos="fade-down" className="container">
         <div className="flex justify-between items-center">
-          <h1 className="text-4xl font-bold uppercase text-white border-b-4 border-highGold pb-2">
+          <h1 className="text-4xl font-bold uppercase text-white">
             Monster <span className="font-normal text-2xl">Burger</span>
           </h1>
           <ul className="space-x-14 text-xl hidden lg:flex text-amber-100">
             <li className="hover:text-white">
-              <a href="#">Home</a>
+              <a href="#hero">Home</a>
             </li>
             <li className="hover:text-white">
-              <a href="#">Services</a>
+              <a href="#services">Services</a>
             </li>
             <li className="hover:text-white">
-              <a href="#">Testimonials</a>
+              <a href="#testimonials">Testimonials</a>
             </li>
             <li className="hover:text-white">
-              <a href="#">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
           <div onClick={() => setSidebar(!sidebar)}>

@@ -7,7 +7,10 @@ import { FaInstagram } from "react-icons/fa6";
 const Hero = () => {
   const [sidebar, setSidebar] = React.useState(false);
   return (
-    <main className="md:pl-12 md:py-6 bg-gradient-to-r from-darkGold to-darkRed">
+    <main
+      className="md:pl-12 md:py-6 bg-gradient-to-r from-darkGold to-darkRed"
+      id="hero"
+    >
       <div className="md:border-2 border-dark md:border-r-0 md:rounded-l-xl">
         <section className="relative pb-8 bg-gradient-to-r from-dark to-lightRed w-full md:rounded-xl md:rounded-r-none shadow-md md:shadow-xl md:border-4 md:border-r-0 border-white">
           <div className="container">
@@ -33,20 +36,23 @@ const Hero = () => {
                   Aspernatur soluta modi optio suscipit ex ipsum minus hic,
                   voluptates accusantium dolor!
                 </p>
-                <button
+                <br />
+                <a
+                  href="#appstore"
                   data-aos="fade-up"
                   data-aos-delay="500"
                   className="border border-lightGold px-4 py-2 rounded-lg m-2 hover:bg-lightRed"
                 >
                   Order Now
-                </button>
-                <button
+                </a>
+                <a
+                  href="#reserve"
                   data-aos="fade-up"
                   data-aos-delay="500"
                   className="border border-lightGold px-4 py-2 rounded-lg hover:bg-darkRed"
                 >
                   Reserve Table
-                </button>
+                </a>
               </div>
               {/* image section */}
               <div>

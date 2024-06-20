@@ -78,7 +78,10 @@ const Featured = () => {
           </div>
         </Slider>
       </div>
-      <div className="container col-span-1 mt-[5rem] space-y-4 border-white border-4 border-double text-center bg-gradient-to-r from-darkRed to-dark rounded-2xl p-4 w-4/5">
+      <div
+        id="reserve"
+        className="container col-span-1 mt-[5rem] space-y-4 border-white border-4 border-double text-center bg-gradient-to-r from-darkRed to-dark rounded-2xl p-4 w-4/5"
+      >
         <h1 className="text-4xl font-bold text-white">
           Reservation <span className="text-lightGold">Form</span>
         </h1>

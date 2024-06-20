@@ -5,7 +5,7 @@ import Delivery from "../assets/delivery.gif";
 
 const AppStoreBanner = () => {
   return (
-    <section className="bg-orange-100">
+    <section className="bg-orange-100" id="appstore">
       <div className="container py-10">
         <div className="text-black sm:min-h-[400px] sm:grid sm:place-items-center rounded-xl">
           <div className="grid md:grid-cols-2 gap-6 items-center">

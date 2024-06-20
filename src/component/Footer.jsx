@@ -38,22 +38,25 @@ const Footer = () => {
             <p className="text-base font-bold tracking-wide text-gray-900">
               Quicklinks
             </p>
-            <a href="#" className="hover:translate-x-1 hover:underline">
+            <a href="#hero" className="hover:translate-x-1 hover:underline">
               Home
             </a>
-            <a href="#" className="hover:translate-x-1 hover:underline">
+            <a href="#services" className="hover:translate-x-1 hover:underline">
               Services
             </a>
-            <a href="#" className="hover:translate-x-1 hover:underline">
+            <a href="#reserve" className="hover:translate-x-1 hover:underline">
               Reservations
             </a>
-            <a href="#" className="hover:translate-x-1 hover:underline">
+            <a
+              href="#testimonial"
+              className="hover:translate-x-1 hover:underline"
+            >
               Testimonials
             </a>
-            <a href="#" className="hover:translate-x-1 hover:underline">
+            <a href="#faq" className="hover:translate-x-1 hover:underline">
               Faq
             </a>
-            <a href="#" className="hover:translate-x-1 hover:underline">
+            <a href="#contact" className="hover:translate-x-1 hover:underline">
               Contact
             </a>
           </div>
@@ -65,14 +68,14 @@ const Footer = () => {
               Download App for Delivery Services
             </p>
             <div className="flex pb-6 gap-2">
-              <a href="#">
+              <a href="https://play.google.com/" target="_blank">
                 <img
                   src={PlayStoreImg}
                   alt="Playstore Button"
                   className="w-[120px]"
                 />
               </a>
-              <a href="#">
+              <a href="https://www.apple.com/store" target="_blank">
                 <img
                   src={AppStoreImg}
                   alt="AppStore Button"
